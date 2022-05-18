@@ -21,7 +21,6 @@ class _MultiPartHomeState extends State<MultiPartHome> {
    getImage()async{
     final image = await ImagePicker().pickImage(
         source: ImageSource.gallery,
-
     );
     if(image==null)
     {
